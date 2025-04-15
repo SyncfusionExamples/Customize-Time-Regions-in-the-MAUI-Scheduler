@@ -63,8 +63,8 @@ namespace SchedulerSample
 
     public class ViewModel
     {
-        public ObservableCollection<SchedulerAppointment> Events { get; set; }
-        public ObservableCollection<SchedulerResource> ResourceCollection { get; set; }
+        public ObservableCollection<SchedulerAppointment>? Events { get; set; }
+        public ObservableCollection<SchedulerResource>? ResourceCollection { get; set; }
 
         public ViewModel()
         {
